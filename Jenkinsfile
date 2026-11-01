@@ -4,7 +4,7 @@ pipeline {
             label 'python_compiler'
             }
       }
-    trigger{
+    triggers{
         pollSCM '******'
       }
     stages {
